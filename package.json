@@ -1,0 +1,21 @@
+{
+  "name": "weather_api",
+  "version": "1.0.0",
+  "description": "The Weather API",
+  "type": "module",
+  "engines": {
+    "node": ">= 18.12 <21"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vadim Beltiucov",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "express": "^4.18.3",
+    "express-validator": "^7.0.1"
+  }
+}
